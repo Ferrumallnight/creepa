@@ -1,0 +1,339 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5149,
+      "max": [
+        3900,
+        3900,
+        3900
+      ],
+      "min": [
+        -3900,
+        -3900,
+        -3900
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 61788,
+      "componentType": 5126,
+      "count": 5149,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5149,
+      "max": [
+        1,
+        1,
+        0.015670610591769218,
+        -1
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.015670605003833771,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5149,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 41192,
+      "componentType": 5126,
+      "count": 5149,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 29400,
+      "max": [
+        5148
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "sgmgdrv (https://sketchfab.com/sgmgdrv)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/1b0e703835e34c18bc5533c0f0afb432",
+      "title": "Prague"
+    },
+    "generator": "Sketchfab-3.39.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 117600,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 82384,
+      "byteOffset": 117600,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 123576,
+      "byteOffset": 199984,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 82384,
+      "byteOffset": 323560,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 405944,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/Spherical_Panorama_Material_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Spherical_Panorama_Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Spherical_Panorama_Material",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9
+      ],
+      "name": "Collada visual scene group"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "global_ambient_light"
+    },
+    {
+      "name": "global_ambient_light"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -0.0029429999999999999,
+        0.015542,
+        -0.0063709999999999999,
+        0,
+        -0.016795000000000001,
+        -0.0026020000000000001,
+        0.0014109999999999999,
+        0,
+        0.00031399999999999999,
+        0.0065189999999999996,
+        0.015755999999999999,
+        0,
+        167.30699999999999,
+        146.357,
+        -1308.8900000000001,
+        1
+      ],
+      "name": "Spherical_Panorama"
+    },
+    {
+      "mesh": 0,
+      "name": "Spherical_Panorama_Material"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        474.22899999999998,
+        414.77699999999999,
+        0,
+        1
+      ],
+      "name": "Camera_1"
+    },
+    {
+      "name": "Camera_2"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        0.242535,
+        0,
+        -0.97014299999999998,
+        0,
+        -0.57078200000000001,
+        0.80860799999999999,
+        -0.14269499999999999,
+        0,
+        0.78446499999999997,
+        0.58834799999999998,
+        0.19611600000000001,
+        0,
+        7606.6899999999996,
+        5764.1199999999999,
+        1783.1099999999999,
+        1
+      ],
+      "name": "Infinite_Light_1"
+    },
+    {
+      "name": "Infinite_Light_1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
